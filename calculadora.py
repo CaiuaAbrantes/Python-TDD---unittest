@@ -5,7 +5,7 @@ def soma(x,y):
     >>> soma('10', 20)
     Traceback (most recent call last):
     ...
-    AssertionError: x precisa ser int ou float
+    AssertionError: x precisa ser int ou float  
     """
     assert isinstance(x, (int, float)), 'x precisa ser int ou float'
     assert isinstance(y, (int, float)), 'y precisa ser int ou float'
